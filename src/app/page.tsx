@@ -8,7 +8,7 @@ import Footer from "./components/main/Footer";
 import Cp from "./components/main/cp";
 import { useTheme } from "next-themes";
 const Page = () => {
-let {setTheme}=useTheme();
+const {setTheme}=useTheme();
 setTheme("dark");
   return (
     <main className="h-full w-full">
