@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import Hero from "./components/main/Hero";
 import Skills from "./components/main/Skills";
 import Projects from "./components/main/Education";
@@ -6,8 +6,10 @@ import Navbar from "./components/main/Navbar";
 import StarsCanvas from "./components/main/StarBackground";
 import Footer from "./components/main/Footer";
 import Cp from "./components/main/cp";
-const Page = async () => {
-
+import { useTheme } from "next-themes";
+const Page = () => {
+let {setTheme}=useTheme();
+setTheme("dark");
   return (
     <main className="h-full w-full">
       <StarsCanvas></StarsCanvas>

@@ -35,7 +35,7 @@ const HeroContent = () => {
             Hi There,
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              I&apos;m Vishwas{" "}
+              I&apos;m JohnDoe{" "}
             </span>
           </span>
         </motion.div>
@@ -61,7 +61,7 @@ const HeroContent = () => {
         className="w-full h-full justify-center items-center hidden sm:flex"
       >
         <Image
-          src="assets/me.png"
+          src="johndoebg.png"
           alt="work icons"
           height={450}
           width={450}
